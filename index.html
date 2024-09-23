@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.10/jspdf.plugin.autotable.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Order Management</h1>
+        <form id="orderForm">
+            <label for="orderNumber">Order Number:</label>
+            <input type="text" id="orderNumber" name="orderNumber" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="chalanNumber">D. Chalan Number:</label>
+            <input type="text" id="chalanNumber" name="chalanNumber" required>
+            
+            <label for="chalanNumber">R. Chalan Number:</label>
+            <input type="text" id="r_chalanNumber" name="r_chalanNumber">
+            
+            <label for="gatePassNumber">GatePass Number:</label>
+            <input type="text" id="gatePassNumber" name="gatePassNumber" required>
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color" required>
+
+            <label for="rolls">Rolls:</label>
+            <input type="number" id="rolls" name="rolls" required>
+
+            <label for="deliveredRolls">Delivered Rolls:</label>
+            <input type="number" id="deliveredRolls" name="deliveredRolls" required>
+
+            <label for="receivedPieces">Received Pieces:</label>
+            <input type="number" id="receivedPieces" name="receivedPieces" required>
+
+            <label for="dyedPieces">Dyed Pieces:</label>
+            <input type="number" id="dyedPieces" name="dyedPieces" required>
+
+            <label for="deliveredPieces">Delivered Pieces:</label>
+            <input type="number" id="deliveredPieces" name="deliveredPieces" required>
+
+            <label for="date">Date:</label>
+            <input type="text" id="date" name="date" required>
+
+            <label for="size">Size:</label>
+            <input type="text" id="size" name="size" required>
+
+            <label for="vehicleNumber">Vehicle Number:</label>
+            <input type="text" id="vehicleNumber" name="vehicleNumber" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="watermark">Build By Duaan Ansari</div>
+
+        <div id="output"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
+
